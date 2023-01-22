@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body{
+			margin: 100px 525px 100px 400px;
+			background-size: cover;
+		}
+		fieldset{
+			border-width: fitcontent;
+			background-color: lightgreen;
+			border-radius: 0px;
+			border-width: 1px;
+			border-color: grey;
+		}
+		button{
+			margin-left: 100px;
+		}
+		label{
+			margin-right: 10px;
+		}
+		.bor{
+			border: 2px solid ;
+			padding: 4px;
+			margin: 2px;
+			
+
+		}
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form 2</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<div>
+				<h4>Step 1: Your details </h4>
+			</div>
+			<div class="bor">
+				
+				<label for="name">Name</label>
+				<input type="text" placeholder="First and last name" id="name">
+			
+			</div>
+			<div class="bor">
+				<label for="mail">Email</label>
+			    <input type="email" placeholder="abc@yahoo.com" id="mail">
+			</div>
+			<div class="bor">
+				<label for="num">Phone</label>
+			    <input type="number" placeholder="+910000000000" id="num">
+			</div>
+			    <h4>Step 2: Delivery address</h4>
+			<div class="bor">
+				<label for="text">Address</label>
+			    <textarea></textarea>
+			</div>
+			<div class="bor">
+				<label for="code">Post code</label>
+			    <input type="number" name="" id="code">
+			</div>
+			<div class="bor">
+				<label for="T">Country</label>
+			    <input type="text" name="" id="T"><br>
+			</div>
+			    <h4>Step 3: Card details</h4>
+			<div class="bor">
+				<label for="cardtype">Card Type</label><br>
+			    <input type="radio" name="cardtype" >VISA
+			    <input type="radio" name="cardtype">AmEx
+			    <input type="radio" name="cardtype">Mastercard
+			</div>
+			<div class="bor">
+				<label for="num">Card Number</label>
+			    <input type="number" name="" id="num">
+			</div>
+			<div class="bor">
+				<label for="sec">Security Code</label>
+			    <input type="number" name="" id="sec">
+			</div>
+			<div class="bor">
+				<label for="nam">Name on card</label>
+			    <input type="text" placeholder="Exact name on the card" id="nam">
+			</div>
+			<div>
+		        <button>BUY IT!</button>
+			</div>
+
+
+          </table>
+		</fieldset>
+	</form>
+
+</body>
+</html>
